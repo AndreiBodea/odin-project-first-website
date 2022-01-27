@@ -2,8 +2,8 @@ body {
     background-color: #1F2937;
     color: #F9FAF8;
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 1000px;
     margin: 0 auto;
+    padding: 20px 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -66,13 +66,13 @@ h1 {
 
 }
 
-.hero button {
+button {
     background-color: #3882F6;
     color: #FFFFFF;
     border: none;
     border-radius: 5px;
-    padding: 5px 10px;
-    font-size: 14px;
+    padding: 10px 15px;
+    font-size: 18px;
     font-weight: 700;
     margin: 10px 0;
 }
@@ -135,10 +135,29 @@ h2 {
 
 /* Quote section starts */
 
+
 .quote-section {
     background-color: #E5E7EB;
     color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px;
 }
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    padding: 10px 200px 0px;
+    margin-bottom: 0px;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: 900;
+    text-align: right;
+    padding: 0px 220px;
+    margin-top: 0px;
+}
+
 
 /* Quote section Ends */
 
@@ -146,8 +165,54 @@ h2 {
 
 /* CTA section starts */
 
-.cta {
+.cta-container {
     background-color: #FFFFFF;
-    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
 }
 
+.cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin: 50px 0;
+}
+
+.cta-title {
+    padding: 15px 100px;
+}
+
+h3 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.cta-para {
+    margin-top: 5px;
+    padding-top: 0px;
+}
+
+.cta button {
+    border: 1px solid #FFFFFF;
+    margin:  0px 70px;
+    padding: 10px; 20px;
+    white-space: nowrap;
+    }
+
+
+/* CTA section end */
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
